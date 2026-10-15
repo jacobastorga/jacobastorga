@@ -1,21 +1,21 @@
 # Jacob Astorga
 
 **Mechanical Engineer & Computational Simulation SME**  
-*Specializing in Structural FEA, Additive Manufacturing (DFAM), and AI Training & Benchmark Verification for Engineering Reasoning.*
+*Specializing in Structural FEA, Additive Manufacturing (DFAM), and AI Training & Benchmark Verification.*
 
 ---
 
 ## 🔬 About Me
 
-I am a mechanical engineer with a deep foundation in **computational solid mechanics, computer science, and AI training / evaluation workflows**. My technical focus centers on bridging physical continuum mechanics (FEA, non-linear stress states, polymer anisotropy, fatigue, and buckling) with automated software systems, reproducible simulation toolchains, and machine learning alignment.
+I am a mechanical engineer with a strong cross-disciplinary foundation in **computational solid mechanics, computer science, and AI training / evaluation systems**. My technical background spans continuum mechanics, finite element analysis (FEA), polymer anisotropy, and automated simulation pipelines—coupled with software engineering, automated testing, and LLM alignment.
 
-In the AI space, I specialize in **domain-specific AI training, instruction-tuning data curation (SFT), and designing programmatic verification harnesses for RLHF/RLAIF**:
-* **Computer Science & Automation:** Building modular, test-driven Python architectures, sandboxed headless simulation pipelines (FreeCAD, Gmsh, CalculiX, ParaView), and containerized evaluation environments.
-* **AI Training & Ground-Truth Verification:** Formulating rigorous multi-constraint engineering prompts, engineering deterministic verifiers (Outcome Reward Models / ORMs) that validate physical ground truth, and red-teaming tool-using agents against reward hacking, unit-scaling exploits, and non-physical boundary cheats.
+In the AI evaluation space, I bridge physical engineering principles with rigorous machine learning data curation and validation:
+* **Engineering & Simulation SME:** Designing deterministic simulation-scored benchmarks, kinematic boundary conditions, and material derating models for mechanical design challenges.
+* **Computer Science & AI Tooling:** Engineering automated test suites, web-grounding verification pipelines, multimodal processing utilities, and programmatic verifiers (Outcome Reward Models) that evaluate AI code and reasoning.
 
 ---
 
-## 🛠️ Core Engineering, CS & AI Toolkit
+## 🛠️ Technical Toolkit
 
 | Domain | Tools & Technologies |
 | :--- | :--- |
@@ -23,12 +23,12 @@ In the AI space, I specialize in **domain-specific AI training, instruction-tuni
 | **CAD & Parametric Geometry** | FreeCAD (PartDesign, OpenCASCADE B-Rep), PythonOCC, CadQuery, STEP AP214/AP242 |
 | **Meshing & Discretization** | Gmsh (C3D10 quadratic tetrahedra, field-based curvature refinement), Netgen |
 | **DFAM & Additive Manufacturing** | PrusaSlicer CLI, UltiMaker CuraEngine, FDM/FFF orthotropic derating, Trimesh, 2-manifold verification |
-| **Computer Science & Infrastructure** | Python (`numpy`, `scipy`, `trimesh`, `pytest`), Linux/POSIX Shell, Docker, Git CI/CD, Algorithms & Data Structures |
-| **AI Training & Evaluation** | SFT Dataset Curation, RLHF Preference Rubrics, Process/Outcome Verifiers (PRM/ORM), Agent Red-Teaming |
+| **Computer Science & Automation** | Python, Java, Linux/POSIX Shell, Docker, Git CI/CD, Algorithms & Data Structures, Unit Testing (`pytest`, `JUnit`) |
+| **AI Training & Evaluation** | SFT Dataset Curation, Automated Code Evaluation, Fact-Checking Pipelines, Multimodal Transforms (OpenCV, FFmpeg) |
 
 ---
 
-## 🚀 Featured Engineering Projects & Architectures
+## 🏗️ Mechanical Engineering & Computational Simulation Architectures
 
 ### 1. [Open-Source Structural FEA & Automated Convergence Pipeline (`open-fea-mesh-optimizer`)](https://github.com/jacobastorga/open-fea-mesh-optimizer)
 > **Stack:** Python, FreeCAD OpenCASCADE, Gmsh API, CalculiX (`ccx`), ParaView
@@ -44,11 +44,31 @@ In the AI space, I specialize in **domain-specific AI training, instruction-tuni
 > **Stack:** Python, Docker, CalculiX, FreeCAD API, Automated Verification Logic
 * A benchmarking harness built to test and evaluate autonomous coding and engineering agents on multi-constraint mechanical design challenges.
 * Contains deterministic check algorithms designed to detect AI agent shortcuts: full-face clamping cheats, non-physical kinematic rigid-body stiffening, unit-inconsistency glitches ($10^6$ MPa modulus errors), and paper-thin unprintable membrane geometries.
-* Functions as a programmatic ground-truth verifier (Outcome Reward Model) for reinforcement learning (RL) training loops in engineering domains.
 
 ---
 
-## 📐 Engineering Philosophy
+## 💻 Computer Science, AI Training & Evaluation Tooling
+
+*(Separate software engineering & machine learning pipeline artifacts)*
+
+### 1. [LLM Code & Reasoning Benchmark Suite (`llm-code-benchmark-suite`)](https://github.com/jacobastorga/llm-code-benchmark-suite)
+> **Stack:** Python, Java, Pytest, JUnit, Subprocess Sandboxing
+* Automated test harnesses designed for grading and evaluating AI-generated code.
+* Assesses syntax validity, boundary edge cases, algorithmic time/space complexity, and sandboxed runtime efficiency to generate objective ground-truth pass/fail signals for model evaluation.
+
+### 2. [Web Research & Citation Fact-Checker (`web-citation-fact-checker`)](https://github.com/jacobastorga/web-citation-fact-checker)
+> **Stack:** Python, BeautifulSoup4, Requests, Regex Parsing
+* Automated verification pipeline that cross-references AI-generated claims and URLs against live web sources.
+* Extracts cited references, detects broken links / 404s, parses source HTML content, and flags hallucinated or misleading citations in technical research outputs.
+
+### 3. [Multimodal Data Augmentation Pipeline (`multimodal-data-augmentation`)](https://github.com/jacobastorga/multimodal-data-augmentation)
+> **Stack:** Python, OpenCV, FFmpeg, NumPy
+* Batch processing suite for multimodal dataset curation and preprocessing.
+* Automates spatial geometric image transforms, high-throughput video frame extraction, and multimodal audio-visual alignment pipelines for AI training data pipelines.
+
+---
+
+## 📐 Engineering & Systems Philosophy
 
 > *"A simulation is only as reliable as its boundary condition formulation and mesh convergence proof. In automated engineering and AI evaluation, the goal is not merely finding a passing scalar number, but verifying that the governing physics, material anisotropy, and manufacturing constraints are fully respected."*
 
@@ -56,4 +76,4 @@ In the AI space, I specialize in **domain-specific AI training, instruction-tuni
 
 ### 📫 Connect
 * **GitHub:** [@jacobastorga](https://github.com/jacobastorga)
-* **Focus Areas:** Mechanical SME, Structural FEA, Additive Manufacturing DFAM, AI Training & Benchmark Evaluation
+* **Focus Areas:** Mechanical SME, Structural FEA, Additive Manufacturing DFAM, AI Evaluation Benchmarking
