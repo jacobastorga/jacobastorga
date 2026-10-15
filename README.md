@@ -1,28 +1,30 @@
 # Jacob Astorga
 
 **Mechanical Engineer & Computational Simulation SME**  
-*Specializing in Structural FEA, Design for Additive Manufacturing (DFAM), and Engineering Benchmark Evaluation for Autonomous AI Agents.*
+*Specializing in Structural FEA, Additive Manufacturing (DFAM), and AI Training & Benchmark Verification for Engineering Reasoning.*
 
 ---
 
 ## 🔬 About Me
 
-I am a mechanical engineer with a focus on **computational structural mechanics, open-source FEA/CAD automation, and rigorous evaluation of engineering AI systems**. My work bridges fundamental mechanical principles (continuum mechanics, anisotropic material derating, fatigue, buckling) with automated software toolchains (FreeCAD, Gmsh, CalculiX, ParaView, and headless slicers).
+I am a mechanical engineer with a deep foundation in **computational solid mechanics, computer science, and AI training / evaluation workflows**. My technical focus centers on bridging physical continuum mechanics (FEA, non-linear stress states, polymer anisotropy, fatigue, and buckling) with automated software systems, reproducible simulation toolchains, and machine learning alignment.
 
-In AI evaluation and technical benchmarking, I design deterministic simulation-scored engineering challenges, formulate robust kinematic boundary conditions, and engineer automated checking harnesses that catch mathematical exploits, non-physical boundary cheats, and reward hacking in tool-using AI models.
+In the AI space, I specialize in **domain-specific AI training, instruction-tuning data curation (SFT), and designing programmatic verification harnesses for RLHF/RLAIF**:
+* **Computer Science & Automation:** Building modular, test-driven Python architectures, sandboxed headless simulation pipelines (FreeCAD, Gmsh, CalculiX, ParaView), and containerized evaluation environments.
+* **AI Training & Ground-Truth Verification:** Formulating rigorous multi-constraint engineering prompts, engineering deterministic verifiers (Outcome Reward Models / ORMs) that validate physical ground truth, and red-teaming tool-using agents against reward hacking, unit-scaling exploits, and non-physical boundary cheats.
 
 ---
 
-## 🛠️ Core Engineering & Computational Toolkit
+## 🛠️ Core Engineering, CS & AI Toolkit
 
 | Domain | Tools & Technologies |
 | :--- | :--- |
-| **CAD & Parametric Geometry** | FreeCAD (PartDesign, OpenCASCADE B-Rep), PythonOCC, STEP AP214/AP242, CadQuery |
-| **Meshing & Discretization** | Gmsh (C3D10 quadratic tetrahedra, field-based boundary refinement), Netgen |
-| **Finite Element Analysis (FEA)** | CalculiX CrunchiX (`ccx`), Code_Aster, Linear Static, Eigenvalue Buckling, GCI Convergence |
+| **Mechanical & Structural FEA** | CalculiX CrunchiX (`ccx`), Code_Aster, Linear Static, Eigenvalue Buckling, ASME V&V 20 GCI Convergence |
+| **CAD & Parametric Geometry** | FreeCAD (PartDesign, OpenCASCADE B-Rep), PythonOCC, CadQuery, STEP AP214/AP242 |
+| **Meshing & Discretization** | Gmsh (C3D10 quadratic tetrahedra, field-based curvature refinement), Netgen |
 | **DFAM & Additive Manufacturing** | PrusaSlicer CLI, UltiMaker CuraEngine, FDM/FFF orthotropic derating, Trimesh, 2-manifold verification |
-| **Post-Processing & Automation** | ParaView, Python (`numpy`, `scipy`, `trimesh`, `matplotlib`), Bash/PowerShell CI harnesses |
-| **Evaluation & Benchmarking** | Boundary condition verification, stress singularity extraction, kinematic coupling audits |
+| **Computer Science & Infrastructure** | Python (`numpy`, `scipy`, `trimesh`, `pytest`), Linux/POSIX Shell, Docker, Git CI/CD, Algorithms & Data Structures |
+| **AI Training & Evaluation** | SFT Dataset Curation, RLHF Preference Rubrics, Process/Outcome Verifiers (PRM/ORM), Agent Red-Teaming |
 
 ---
 
@@ -30,7 +32,7 @@ In AI evaluation and technical benchmarking, I design deterministic simulation-s
 
 ### 1. [Open-Source Structural FEA & Automated Convergence Pipeline (`open-fea-mesh-optimizer`)](https://github.com/jacobastorga/open-fea-mesh-optimizer)
 > **Stack:** Python, FreeCAD OpenCASCADE, Gmsh API, CalculiX (`ccx`), ParaView
-* An automated end-to-end computational pipeline that generates parametric B-Rep CAD geometry, builds conformal 10-node quadratic tetrahedral meshes (`C3D10`), executes implicit linear static & buckling solves in CalculiX, and automates mesh convergence verification using the ASME V&V 20 Grid Convergence Index (GCI).
+* An automated computational pipeline that generates parametric B-Rep CAD geometry, builds conformal 10-node quadratic tetrahedral meshes (`C3D10`), executes implicit linear static & buckling solves in CalculiX, and automates mesh convergence verification using the ASME V&V 20 Grid Convergence Index (GCI).
 * Eliminates shear locking, handles reentrant notch singularities via Saint-Venant extraction, and automates multi-objective mass-stiffness optimization.
 
 ### 2. [DFAM Geometry & Slicer Validation Engine (`dfam-printability-validator`)](https://github.com/jacobastorga/dfam-printability-validator)
@@ -42,6 +44,7 @@ In AI evaluation and technical benchmarking, I design deterministic simulation-s
 > **Stack:** Python, Docker, CalculiX, FreeCAD API, Automated Verification Logic
 * A benchmarking harness built to test and evaluate autonomous coding and engineering agents on multi-constraint mechanical design challenges.
 * Contains deterministic check algorithms designed to detect AI agent shortcuts: full-face clamping cheats, non-physical kinematic rigid-body stiffening, unit-inconsistency glitches ($10^6$ MPa modulus errors), and paper-thin unprintable membrane geometries.
+* Functions as a programmatic ground-truth verifier (Outcome Reward Model) for reinforcement learning (RL) training loops in engineering domains.
 
 ---
 
@@ -53,4 +56,4 @@ In AI evaluation and technical benchmarking, I design deterministic simulation-s
 
 ### 📫 Connect
 * **GitHub:** [@jacobastorga](https://github.com/jacobastorga)
-* **Focus Areas:** Mechanical SME, Structural FEA, Additive Manufacturing DFAM, AI Evaluation Benchmarking
+* **Focus Areas:** Mechanical SME, Structural FEA, Additive Manufacturing DFAM, AI Training & Benchmark Evaluation
