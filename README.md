@@ -1,18 +1,21 @@
 # Jacob Astorga
 
-**Computational Scientist, Software Engineer & AI Evaluation Specialist**  
-*Specializing in AI Model Training Pipelines, RLHF/DPO Preference Curation, Agentic Tool Evaluation & Computational Benchmarks.*
+**Mechanical Engineer, Software Developer & Computational AI Specialist**  
+*Bridging ABET-Accredited Mechanical Engineering, CAD/FEA Simulation Pipelines, Scientific Computing & Frontier AI Evaluation.*
 
 ---
 
 ## 🔬 About Me
 
-I am a software engineer and computational scientist with an interdisciplinary foundation bridging **software development, frontier AI training pipelines, and computational modeling**. My work centers on designing automated evaluation harnesses, curating high-signal preference datasets for Direct Preference Optimization (DPO), and stress-testing autonomous agent tool calling.
+I am a computational engineer and software developer with an interdisciplinary foundation bridging an **ABET-accredited BS in Mechanical Engineering (The University of Texas at El Paso)** and a **Bachelor's Degree in Software Development / Computer Science (Dallas College)**. 
 
-In the AI training and evaluation space:
-* **RLHF & DPO Preference Engineering:** Designing automated AST pipelines to score code completions, detect subtle model reward-hacking tricks (empty pass stubs, broad exception swallowing), and generate clean `(chosen, rejected)` training pairs.
-* **Agentic Tool-Use Evaluation:** Benchmarking autonomous coding agents on multi-step function calling, JSON schema compliance, argument hallucination detection, and causal DAG dependency ordering.
-* **Scientific & Code Benchmarks:** Formulating deterministic test suites, unit testing harnesses (`pytest`), and mathematical proofs enforcing boundary conditions and ground-truth validation.
+My work unites classical mechanical engineering principles—continuum mechanics, finite element analysis (FEA), 3D CAD modeling, and fluid dynamics—with software engineering, automated verification test harnesses, and frontier AI model alignment (RLHF / DPO).
+
+### Core Focus Areas:
+* **Mechanical & Computational Engineering:** Designing parametric CAD models (SolidWorks, FreeCAD, OpenCASCADE), generating conformal tetrahedral meshes (Gmsh, CalculiX ccx), and formulating deterministic PDE/ODE reference solutions for thermo-mechanical stress, heat advection-diffusion, and nonlinear elasticity.
+* **AI Training & RLHF/DPO Alignment:** Designing automated AST pipelines to audit intermediate model derivations, eliminate mathematical hallucinations, enforce physical conservation laws, and curate high-signal (chosen, rejected) training datasets.
+* **Agentic Systems & Tool-Use Evaluation:** Benchmarking autonomous engineering and coding agents on multi-step tool execution, JSON schema compliance, parameter hallucination detection, and causal DAG dependency graphs.
+* **Software Engineering & Automated Verification:** Engineering robust Python, C++, and Java test suites (pytest), asynchronous workflow orchestrators, and declarative contract verification engines.
 
 ---
 
@@ -20,11 +23,12 @@ In the AI training and evaluation space:
 
 | Domain | Tools & Technologies |
 | :--- | :--- |
+| **Mechanical Engineering & CAD Design** | SolidWorks, FreeCAD / OpenCASCADE, AutoCAD, Fusion 360, CadQuery, GD&T (ASME Y14.5), STEP/IGES/STL, DFM, CAD-to-FEA Mesh Preparation |
+| **FEA, Physics Simulation & Continuum Mechanics** | CalculiX CrunchiX (ccx), Gmsh API, OpenFOAM, Finite Element Analysis (FEA), Cauchy Stress & Strain Tensors, Linear/Nonlinear Elasticity, Navier-Stokes Fluid Dynamics |
+| **Computational Mathematics & Solvers** | scipy.integrate (solve_bvp, solve_ivp), scipy.sparse, scipy.optimize, Runge-Kutta & Stiff Solvers (Radau, BDF), Crank-Nicolson, Finite Difference Method (FDM) |
 | **AI Training & Alignment (RLHF / DPO)** | DPO Preference Dataset Curation, SFT Golden Data Authoring, Reward Model Scaffolding, AST Complexity Scoring, Anti-Reward Hacking Filters |
 | **Agentic Systems & Function Calling** | JSON Schema Validation, Mock Sandboxed Execution Environments, Dependency DAG Analysis, Parameter Hallucination Auditing |
-| **Computer Science & Software Engineering** | Python, C++, Java, Linux/POSIX Shell, Docker, Git CI/CD, Algorithms & Data Structures, Unit Testing (`pytest`, `JUnit`) |
-| **Computational Mathematics & Solvers** | `scipy.integrate` (`solve_bvp`, `solve_ivp`), `scipy.sparse`, `scipy.optimize`, Runge-Kutta & Stiff Solvers (Radau, BDF), Crank-Nicolson, Finite Difference Method (FDM) |
-| **Continuum Mechanics & Structural FEA** | CalculiX CrunchiX (`ccx`), Gmsh API, Linear/Nonlinear Elasticity, Plasticity & Hardening, Von Mises & Tresca Yield |
+| **Computer Science & Software Engineering** | Python (OOP, NumPy, SciPy, SymPy), C++, Java, Linux/POSIX Shell, Docker, Git CI/CD, Algorithms & Data Structures, Unit Testing (pytest, JUnit), AsyncIO |
 
 ---
 
