@@ -1,21 +1,22 @@
 # Jacob Astorga
 
-**Mechanical Engineer, Software Developer & Computational AI Specialist**  
-*Bridging ABET-Accredited Mechanical Engineering, CAD/FEA Simulation Pipelines, Scientific Computing & Frontier AI Evaluation.*
+**Systems Engineer, Software Developer & Computational AI Specialist**  
+*Bridging ABET-Accredited Mechanical Engineering, CAD/FEA Simulation Pipelines, Enterprise Software Development & Frontier AI Model Alignment.*
 
 ---
 
 ## 🔬 About Me
 
-I am a computational engineer and software developer with an interdisciplinary foundation bridging an **ABET-accredited BS in Mechanical Engineering (The University of Texas at El Paso)** and a **Bachelor's Degree in Software Development / Computer Science (Dallas College)**. 
+I am a multi-disciplinary Systems Engineer and Software Developer with an interdisciplinary foundation bridging an **ABET-accredited BS in Mechanical Engineering (The University of Texas at El Paso)** and a **Bachelor's Degree in Software Development / Computer Science (Dallas College)**.
 
-My work unites classical mechanical engineering principles—continuum mechanics, finite element analysis (FEA), 3D CAD modeling, and fluid dynamics—with software engineering, automated verification test harnesses, and frontier AI model alignment (RLHF / DPO).
+My background unites classical mechanical engineering principles—continuum mechanics, finite element analysis (FEA), 3D CAD modeling, ASME Y14.5 GD&T tolerance analysis, and fluid dynamics—with enterprise software engineering (Java, Python, C++, REST APIs, CI/CD), automated test harnesses (PyTest, JUnit 5), and frontier AI model alignment (RLHF / DPO / Tool-Calling).
 
 ### Core Focus Areas:
-* **Mechanical & Computational Engineering:** Designing parametric CAD models (SolidWorks, FreeCAD, OpenCASCADE), generating conformal tetrahedral meshes (Gmsh, CalculiX ccx), and formulating deterministic PDE/ODE reference solutions for thermo-mechanical stress, heat advection-diffusion, and nonlinear elasticity.
-* **AI Training & RLHF/DPO Alignment:** Designing automated AST pipelines to audit intermediate model derivations, eliminate mathematical hallucinations, enforce physical conservation laws, and curate high-signal (chosen, rejected) training datasets.
+* **Mechanical & Computational Engineering:** Parametric CAD modeling (SolidWorks, PTC Creo, FreeCAD), ASME Y14.5 GD&T tolerance stackup (worst-case & RSS), conformal tetrahedral meshing (Gmsh, CalculiX ccx), and deterministic PDE/ODE solvers for thermo-mechanical conduction and stress analysis.
+* **AI Training & RLHF/DPO Alignment:** Designing automated AST pipelines to audit intermediate Chain-of-Thought derivations, eliminate mathematical hallucinations, enforce physical conservation laws, and curate high-signal (chosen, rejected) preference pairs.
 * **Agentic Systems & Tool-Use Evaluation:** Benchmarking autonomous engineering and coding agents on multi-step tool execution, JSON schema compliance, parameter hallucination detection, and causal DAG dependency graphs.
-* **Software Engineering & Automated Verification:** Engineering robust Python, C++, and Java test suites (pytest), asynchronous workflow orchestrators, and declarative contract verification engines.
+* **Enterprise Software Engineering & Automated QA:** Asynchronous workflow engines (AsyncIO, Kahn's topological sort), declarative API contract fuzzers, mock test fixtures, boundary regression suites, and CI/CD pipelines.
+* **Multilingual & Cross-Lingual NLP:** English-to-Swahili (Kiswahili) semantic translation fidelity, Bantu noun-class grammatical concord verification, and low-resource reasoning alignment.
 
 ---
 
@@ -23,72 +24,57 @@ My work unites classical mechanical engineering principles—continuum mechanics
 
 | Domain | Tools & Technologies |
 | :--- | :--- |
-| **Mechanical Engineering & CAD Design** | SolidWorks, FreeCAD / OpenCASCADE, AutoCAD, Fusion 360, CadQuery, GD&T (ASME Y14.5), STEP/IGES/STL, DFM, CAD-to-FEA Mesh Preparation |
-| **FEA, Physics Simulation & Continuum Mechanics** | CalculiX CrunchiX (ccx), Gmsh API, OpenFOAM, Finite Element Analysis (FEA), Cauchy Stress & Strain Tensors, Linear/Nonlinear Elasticity, Navier-Stokes Fluid Dynamics |
-| **Computational Mathematics & Solvers** | scipy.integrate (solve_bvp, solve_ivp), scipy.sparse, scipy.optimize, Runge-Kutta & Stiff Solvers (Radau, BDF), Crank-Nicolson, Finite Difference Method (FDM) |
-| **AI Training & Alignment (RLHF / DPO)** | DPO Preference Dataset Curation, SFT Golden Data Authoring, Reward Model Scaffolding, AST Complexity Scoring, Anti-Reward Hacking Filters |
-| **Agentic Systems & Function Calling** | JSON Schema Validation, Mock Sandboxed Execution Environments, Dependency DAG Analysis, Parameter Hallucination Auditing |
-| **Computer Science & Software Engineering** | Python (OOP, NumPy, SciPy, SymPy), C++, Java, Linux/POSIX Shell, Docker, Git CI/CD, Algorithms & Data Structures, Unit Testing (pytest, JUnit), AsyncIO |
+| **Mechanical Engineering & CAD Design** | SolidWorks, PTC Creo, FreeCAD / OpenCASCADE, AutoCAD, GD&T (ASME Y14.5), Tolerance Stackup (Worst-Case & RSS), DFM/DFA |
+| **FEA, Physics Simulation & Continuum Mechanics** | CalculiX CrunchiX (ccx), Gmsh API, Finite Element Analysis (FEA), Finite Difference Method (FDM), Fourier Heat Conduction, Navier-Stokes Fluid Dynamics |
+| **Enterprise Software Engineering** | Python (AsyncIO, FastAPI), Java (Spring Boot), C++, REST APIs, OpenAPI, JSON Schema, SQL (PostgreSQL), Docker, Linux, CI/CD |
+| **Automated Software Testing & QA** | PyTest automated test harnesses, JUnit 5, Test-Driven Development (TDD), Mock Fixtures, AST Cyclomatic Complexity |
+| **AI Training & Alignment (RLHF / DPO)** | DPO Pairwise Preference Curation, CoT Derivation Auditing, Hallucination Detection, Bradley-Terry Scoring, AST Complexity Scoring |
+| **Agentic Systems & Function Calling** | JSON Schema Parameter Validation, Isolated Sandbox Execution, Causal DAG Dependency Graphs, Tool Hallucination Auditing |
+| **Multimodal QA & Cross-Lingual NLP** | CVAT 1.1 / Labelbox v2 Schema Export, SSIM / PSNR / Sobel Edge Analysis, Swahili (Kiswahili) Bilingual Evaluation & Concord Rules |
 
 ---
 
-## 💻 Computer Science & AI Training Tooling
+## 💻 Featured Open-Source Repositories & Engineering Portfolio
 
-### 1. [Async Task Orchestrator & DAG Workflow Engine (sync-task-orchestrator)](https://github.com/jacobastorga/async-task-orchestrator)
-> **Stack:** Python, AsyncIO, Kahn's Topological Sorting, SQLite, PyTest, Concurrency Semaphores
-* High-performance asynchronous DAG task execution engine with automated cycle detection (3-color DFS), non-blocking worker concurrency control, exponential backoff retries, and embedded SQLite execution state persistence.
+### 1. [Thermo-Mechanical FEA Conduction & Stress Solver (`thermo-mechanical-fea-solver`)](https://github.com/jacobastorga/thermo-mechanical-fea-solver)
+> **Stack:** Python, NumPy, SciPy, Finite Difference Method (FDM), Plane Strain Elasticity, PyTest  
+* 2D steady-state finite difference thermal conduction solver with temperature-dependent conductivity $k(T)$, Robin boundary convection, and thermo-elastic plane strain stress evaluation for semiconductor microelectronics packaging and heat sink dissipation.
 
-### 2. [REST API Schema Guard & Contract Fuzzer (
-est-api-schema-guard)](https://github.com/jacobastorga/rest-api-schema-guard)
-> **Stack:** Python, JSON Schema, OpenAPI Contracts, Property Validation, Adversarial Fuzzing, PyTest
-* Declarative REST API contract testing and JSON Schema validation framework enforcing strict type bounds and property constraints while running automated boundary fuzzing to ensure 100% negative test case rejection.
+### 2. [ASME Y14.5 GD&T Tolerance Stackup Analyzer (`asme-gdt-tolerance-analyzer`)](https://github.com/jacobastorga/asme-gdt-tolerance-analyzer)
+> **Stack:** Python, NumPy, ASME Y14.5-2018, Monte Carlo Simulation, PyTest  
+* High-precision parametric 1D and 2D tolerance stackup calculation engine evaluating worst-case (arithmetic) loop closure, Root-Sum-Square (RSS) statistical variance, and 100,000-sample Monte Carlo normal/uniform yield distributions for mechanical assemblies.
 
-### 3. [RLHF Reasoning Alignment & Verification Suite (
-lhf-reasoning-alignment)](https://github.com/jacobastorga/rlhf-reasoning-alignment)
-> **Stack:** Python, NumPy, Pytest, AST Step Tokenization, DPO / RLHF Bradley-Terry Scoring
-* Programmatic verification, step-level factuality auditing, and pairwise DPO preference dataset curation harness for frontier mathematical and scientific reasoning models.
-* Audits intermediate Chain-of-Thought steps for numerical tolerance bounds ($|y_{\\text{pred}} - y_{\\text{ref}}| \\le \\epsilon$), detects ungrounded heuristic leaps and phantom constants, and exports margin-calibrated DPO preference pairs.
+### 3. [Cross-Lingual Swahili NLP Evaluator (`cross-lingual-swahili-nlp-evaluator`)](https://github.com/jacobastorga/cross-lingual-swahili-nlp-evaluator)
+> **Stack:** Python, NLP Tokenization, Bantu Grammar Concord Rules, Multilingual Evaluation, PyTest  
+* Cross-lingual evaluation harness for benchmarking English-to-Swahili foundation model translations, semantic alignment, and low-resource reasoning fidelity. Validates noun-class grammatical concords (Classes 1–10) and flags unlocalized technical borrowings.
 
-### 4. [Synthetic Image Artifact Detector & Multimodal QA (synthetic-image-artifact-detector)](https://github.com/jacobastorga/synthetic-image-artifact-detector)
-> **Stack:** Python, NumPy, Sobel Gradients, SSIM / PSNR, CVAT 1.1 JSON, Labelbox v2 NDJSON
-* Computer vision quality assurance pipeline and defect auditing harness designed for multimodal AI evaluation, synthetic-vs-original image comparison, and training data annotation.
-* Detects lighting gradient discontinuities, boundary edge blur, and texture over-smoothing, converting defect clusters into standardized CVAT and Labelbox polygon segmentation schemas.
+### 4. [Synthetic Image Artifact Detector & Multimodal QA (`synthetic-image-artifact-detector`)](https://github.com/jacobastorga/synthetic-image-artifact-detector)
+> **Stack:** Python, NumPy, Sobel Gradients, SSIM / PSNR, CVAT 1.1 JSON, Labelbox v2 NDJSON  
+* Computer vision quality assurance pipeline and defect auditing harness designed for multimodal AI evaluation, synthetic-vs-original image comparison, and training data annotation. Converts detected anomalies into standardized CVAT and Labelbox polygon segmentation schemas.
 
 ### 5. [Agentic Tool Call Evaluator (`agentic-tool-call-evaluator`)](https://github.com/jacobastorga/agentic-tool-call-evaluator)
-> **Stack:** Python, JSON Schema, Pytest, Pydantic, Abstract Execution Sandboxes
-* A production-grade evaluation harness and benchmarking framework for assessing autonomous coding agents and LLMs on **multi-step tool calling, JSON schema compliance, and causal dependency ordering**.
-* Features strict parameter hallucination detection (flagging parameters not defined in tool specifications), an isolated in-memory stateful execution sandbox, and a causal DAG analyzer catching out-of-order execution anti-patterns.
+> **Stack:** Python, JSON Schema, PyTest, Pydantic, Abstract Execution Sandboxes  
+* Benchmarking framework for evaluating autonomous coding agents and LLMs on multi-step tool calling, JSON schema compliance, and causal DAG dependency ordering. Features strict parameter hallucination detection and stateful in-memory execution sandboxing.
 
-### 6. [DPO Code Preference Pipeline (`dpo-code-preference-pipeline`)](https://github.com/jacobastorga/dpo-code-preference-pipeline)
-> **Stack:** Python, AST (Abstract Syntax Trees), Pytest, JSONL Dataset Serialization
-* Automated engineering pipeline for curating, auditing, scoring, and formatting pairwise preference datasets `(chosen, rejected)` for **Direct Preference Optimization (DPO)** and **RLHF**.
-* Features AST-based cyclomatic complexity auditing, anti-reward gaming heuristics (detecting empty `pass` stubs, ellipsis placeholders, and unhandled exception swallowing), and an isolated test execution sandbox.
+### 6. [RLHF Reasoning Alignment & Verification Suite (`rlhf-reasoning-alignment`)](https://github.com/jacobastorga/rlhf-reasoning-alignment)
+> **Stack:** Python, NumPy, PyTest, AST Step Tokenization, DPO / RLHF Bradley-Terry Scoring  
+* Step-level factuality auditing and pairwise DPO preference dataset curation harness for frontier mathematical and scientific reasoning models. Audits intermediate Chain-of-Thought steps for numerical tolerance bounds ($|y_{\text{pred}} - y_{\text{ref}}| \le \epsilon$) and detects spurious heuristic leaps.
 
-### 7. [LLM Code & Reasoning Benchmark Suite (`llm-code-benchmark-suite`)](https://github.com/jacobastorga/llm-code-benchmark-suite)
-> **Stack:** Python, Java, Pytest, JUnit, Subprocess Sandboxing
-* Automated test harnesses designed for grading and evaluating AI-generated code.
-* Assesses syntax validity, boundary edge cases, algorithmic time/space complexity, and sandboxed runtime efficiency to generate objective ground-truth pass/fail signals for model evaluation.
+### 7. [Async Task Orchestrator & DAG Workflow Engine (`async-task-orchestrator`)](https://github.com/jacobastorga/async-task-orchestrator)
+> **Stack:** Python, AsyncIO, Kahn's Topological Sorting, SQLite, PyTest, Concurrency Semaphores  
+* High-performance asynchronous DAG task execution engine with automated cycle detection (3-color DFS), non-blocking worker concurrency control, exponential backoff retries, and embedded SQLite execution state persistence.
 
-### 8. [Web Research & Citation Fact-Checker (`web-citation-fact-checker`)](https://github.com/jacobastorga/web-citation-fact-checker)
-> **Stack:** Python, BeautifulSoup4, Requests, Regex Parsing
-* Automated verification pipeline that cross-references AI-generated claims and URLs against live web sources.
-* Extracts cited references, detects broken links / 404s, parses source HTML content, and flags hallucinated or misleading citations in technical research outputs.
+### 8. [REST API Schema Guard & Contract Fuzzer (`rest-api-schema-guard`)](https://github.com/jacobastorga/rest-api-schema-guard)
+> **Stack:** Python, JSON Schema, OpenAPI Contracts, Property Validation, Adversarial Fuzzing, PyTest  
+* Declarative REST API contract testing and JSON Schema validation framework enforcing strict type bounds and property constraints while running automated boundary fuzzing to ensure 100% negative test case rejection.
 
----
+### 9. [DPO Code Preference Pipeline (`dpo-code-preference-pipeline`)](https://github.com/jacobastorga/dpo-code-preference-pipeline)
+> **Stack:** Python, AST (Abstract Syntax Trees), PyTest, JSONL Dataset Serialization  
+* Automated pipeline for curating, auditing, scoring, and formatting pairwise preference datasets `(chosen, rejected)` for Direct Preference Optimization (DPO) and RLHF. Features AST cyclomatic complexity analysis and anti-reward gaming heuristics.
 
-## 🏛️ Computational Science & AI Benchmark Architectures
-
-### 1. [Computational Physics & Mathematics AI Benchmarks (`computational-physics-benchmarks`)](https://github.com/jacobastorga/computational-physics-benchmarks)
-> **Stack:** Python, NumPy, SciPy (`solve_bvp`, `sparse.linalg`), SymPy, PyTest
-* A research-grade computational evaluation suite designed to benchmark frontier foundation models on complex physical and mathematical reasoning tasks (2D Advection-Diffusion, Elastoplasticity, Nonlinear Beam Buckling).
-
-### 2. [Autonomous Mechanical Agent Evaluation & Benchmark Harness (`mech-agent-eval-harness`)](https://github.com/jacobastorga/mech-agent-eval-harness)
-> **Stack:** Python, Docker, CalculiX, FreeCAD API, Automated Verification Logic
-* A benchmarking harness built to test and evaluate autonomous coding and engineering agents on multi-constraint mechanical design challenges, catching non-physical rigid-body stiffening and membrane cheats.
-
-### 3. [Open-Source Structural FEA & Automated Convergence Pipeline (`open-fea-mesh-optimizer`)](https://github.com/jacobastorga/open-fea-mesh-optimizer)
-> **Stack:** Python, FreeCAD OpenCASCADE, Gmsh API, CalculiX (`ccx`), ParaView
-* Automated computational pipeline generating parametric B-Rep CAD geometry, building conformal 10-node quadratic tetrahedral meshes (`C3D10`), and verifying convergence via the ASME V&V 20 Grid Convergence Index (GCI).
+### 10. [Computational Physics & Mathematics AI Benchmarks (`computational-physics-benchmarks`)](https://github.com/jacobastorga/computational-physics-benchmarks)
+> **Stack:** Python, NumPy, SciPy (`solve_bvp`, `sparse.linalg`), SymPy, PyTest  
+* Research-grade computational evaluation suite designed to benchmark frontier foundation models on complex physical and mathematical reasoning tasks (2D Advection-Diffusion, Elastoplasticity, Nonlinear Beam Buckling).
 
 ---
 
