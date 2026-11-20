@@ -30,22 +30,33 @@ In the AI training and evaluation space:
 
 ## 💻 Computer Science & AI Training Tooling
 
-### 1. [Agentic Tool Call Evaluator (`agentic-tool-call-evaluator`)](https://github.com/jacobastorga/agentic-tool-call-evaluator)
+### 1. [RLHF Reasoning Alignment & Verification Suite (
+lhf-reasoning-alignment)](https://github.com/jacobastorga/rlhf-reasoning-alignment)
+> **Stack:** Python, NumPy, Pytest, AST Step Tokenization, DPO / RLHF Bradley-Terry Scoring
+* Programmatic verification, step-level factuality auditing, and pairwise DPO preference dataset curation harness for frontier mathematical and scientific reasoning models.
+* Audits intermediate Chain-of-Thought steps for numerical tolerance bounds ($|y_{\\text{pred}} - y_{\\text{ref}}| \\le \\epsilon$), detects ungrounded heuristic leaps and phantom constants, and exports margin-calibrated DPO preference pairs.
+
+### 2. [Synthetic Image Artifact Detector & Multimodal QA (synthetic-image-artifact-detector)](https://github.com/jacobastorga/synthetic-image-artifact-detector)
+> **Stack:** Python, NumPy, Sobel Gradients, SSIM / PSNR, CVAT 1.1 JSON, Labelbox v2 NDJSON
+* Computer vision quality assurance pipeline and defect auditing harness designed for multimodal AI evaluation, synthetic-vs-original image comparison, and training data annotation.
+* Detects lighting gradient discontinuities, boundary edge blur, and texture over-smoothing, converting defect clusters into standardized CVAT and Labelbox polygon segmentation schemas.
+
+### 3. [Agentic Tool Call Evaluator (`agentic-tool-call-evaluator`)](https://github.com/jacobastorga/agentic-tool-call-evaluator)
 > **Stack:** Python, JSON Schema, Pytest, Pydantic, Abstract Execution Sandboxes
 * A production-grade evaluation harness and benchmarking framework for assessing autonomous coding agents and LLMs on **multi-step tool calling, JSON schema compliance, and causal dependency ordering**.
 * Features strict parameter hallucination detection (flagging parameters not defined in tool specifications), an isolated in-memory stateful execution sandbox, and a causal DAG analyzer catching out-of-order execution anti-patterns.
 
-### 2. [DPO Code Preference Pipeline (`dpo-code-preference-pipeline`)](https://github.com/jacobastorga/dpo-code-preference-pipeline)
+### 4. [DPO Code Preference Pipeline (`dpo-code-preference-pipeline`)](https://github.com/jacobastorga/dpo-code-preference-pipeline)
 > **Stack:** Python, AST (Abstract Syntax Trees), Pytest, JSONL Dataset Serialization
 * Automated engineering pipeline for curating, auditing, scoring, and formatting pairwise preference datasets `(chosen, rejected)` for **Direct Preference Optimization (DPO)** and **RLHF**.
 * Features AST-based cyclomatic complexity auditing, anti-reward gaming heuristics (detecting empty `pass` stubs, ellipsis placeholders, and unhandled exception swallowing), and an isolated test execution sandbox.
 
-### 3. [LLM Code & Reasoning Benchmark Suite (`llm-code-benchmark-suite`)](https://github.com/jacobastorga/llm-code-benchmark-suite)
+### 5. [LLM Code & Reasoning Benchmark Suite (`llm-code-benchmark-suite`)](https://github.com/jacobastorga/llm-code-benchmark-suite)
 > **Stack:** Python, Java, Pytest, JUnit, Subprocess Sandboxing
 * Automated test harnesses designed for grading and evaluating AI-generated code.
 * Assesses syntax validity, boundary edge cases, algorithmic time/space complexity, and sandboxed runtime efficiency to generate objective ground-truth pass/fail signals for model evaluation.
 
-### 4. [Web Research & Citation Fact-Checker (`web-citation-fact-checker`)](https://github.com/jacobastorga/web-citation-fact-checker)
+### 6. [Web Research & Citation Fact-Checker (`web-citation-fact-checker`)](https://github.com/jacobastorga/web-citation-fact-checker)
 > **Stack:** Python, BeautifulSoup4, Requests, Regex Parsing
 * Automated verification pipeline that cross-references AI-generated claims and URLs against live web sources.
 * Extracts cited references, detects broken links / 404s, parses source HTML content, and flags hallucinated or misleading citations in technical research outputs.
